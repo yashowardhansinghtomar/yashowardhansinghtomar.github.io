@@ -382,6 +382,27 @@ h1 {
   margin-top: 12px;
 }
 
+.resume-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.resume-actions a {
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 850;
+  padding: 7px 10px;
+  text-decoration: none;
+}
+
+.resume-actions a:last-child {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--paper);
+}
+
 .resume-link:hover,
 .project-card:hover {
   border-color: #9fb0a7;

@@ -17,7 +17,7 @@ No dev server is required.
 - Positioning around LLM evaluation, RAG evaluation, and voice AI
 - Three featured GitHub projects
 - Focus areas and experience summary
-- Self-contained resume HTML and DOCX variants in `portfolio-site/resumes/`
+- Self-contained resume HTML, PDF, and DOCX variants in `portfolio-site/resumes/`
 - GitHub, LinkedIn, and email contact links
 - Canvas-based hero visual showing model/evidence/voice workflow nodes
 
