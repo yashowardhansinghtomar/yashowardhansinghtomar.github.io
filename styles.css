@@ -249,6 +249,7 @@ h1 {
 
 .project-card p {
   color: var(--muted);
+  margin-bottom: 16px;
   min-height: 132px;
 }
 
@@ -279,6 +280,20 @@ h1 {
 .project-stack {
   background: var(--soft);
   color: var(--muted);
+}
+
+.project-evidence {
+  color: #35443f;
+  display: grid;
+  gap: 6px;
+  list-style-position: outside;
+  margin: 0 0 20px;
+  min-height: 96px;
+  padding-left: 18px;
+}
+
+.project-evidence li::marker {
+  color: var(--green);
 }
 
 .accent-blue .project-label {
@@ -474,6 +489,10 @@ h1 {
   }
 
   .project-card p {
+    min-height: 0;
+  }
+
+  .project-evidence {
     min-height: 0;
   }
 

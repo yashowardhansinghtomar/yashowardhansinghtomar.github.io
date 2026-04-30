@@ -29,11 +29,11 @@
         <canvas id="system-map" aria-hidden="true"></canvas>
         <div class="hero-content">
           <p class="eyebrow">LLM Evaluation | RAG Evaluation | Voice AI</p>
-          <h1 id="hero-title">AI engineer building systems that can be evaluated, traced, and improved.</h1>
+          <h1 id="hero-title">AI engineer building workflows that can be evaluated, traced, and improved.</h1>
           <p class="hero-copy">
             I work on practical AI systems where model behavior matters: RLHF-style response
-            evaluation, retrieval quality, grounded answers, voice-agent pipelines, and local-first
-            LLM applications.
+            evaluation, retriever comparison, grounded answers, voice-agent edge cases, and
+            local-first LLM applications.
           </p>
           <div class="hero-actions" aria-label="Primary links">
             <a class="button primary" href="https://github.com/yashowardhansinghtomar">View GitHub</a>
@@ -42,15 +42,15 @@
           <dl class="signal-row" aria-label="Profile highlights">
             <div>
               <dt>RLHF</dt>
-              <dd>xAI + Meta Llama 4 evaluation workflows</dd>
+              <dd>Rubrics, preference checks, and annotator agreement</dd>
+            </div>
+            <div>
+              <dt>RAG</dt>
+              <dd>Retriever comparison, citations, and groundedness</dd>
             </div>
             <div>
               <dt>Voice AI</dt>
-              <dd>Production TTS/STT integration experience</dd>
-            </div>
-            <div>
-              <dt>Portfolio</dt>
-              <dd>Public Python eval and agent workbenches</dd>
+              <dd>Production STT/TTS plus scenario-tested demos</dd>
             </div>
           </dl>
         </div>
@@ -59,14 +59,14 @@
       <section class="section intro" aria-labelledby="intro-title">
         <div class="section-heading">
           <p class="eyebrow">Profile</p>
-          <h2 id="intro-title">The useful gap is between a demo and a reliable AI workflow.</h2>
+          <h2 id="intro-title">The useful gap is between a demo and evidence that the workflow holds up.</h2>
         </div>
         <div class="intro-body">
           <p>
             My background combines LLM evaluation work, production voice AI integration, and
             business-facing product experience. I care about whether a model followed the
             instruction, whether a RAG answer is grounded in evidence, and whether a voice pipeline
-            can be tested under realistic scenarios.
+            can handle realistic failures such as silence, unclear transcripts, and interruptions.
           </p>
           <p>
             I am currently targeting remote or relocation-friendly roles in AI evaluation, RLHF, RAG
@@ -78,7 +78,7 @@
       <section class="section" id="work" aria-labelledby="work-title">
         <div class="section-heading">
           <p class="eyebrow">Selected public work</p>
-          <h2 id="work-title">Three anchor projects tell the current story.</h2>
+          <h2 id="work-title">Three anchor projects show the current direction.</h2>
         </div>
 
         <div class="project-grid">
@@ -90,8 +90,14 @@
             <h3>llm-evaluation-lab</h3>
             <p>
               Config-driven workbench for pairwise response scoring, RLHF-style rubrics, JSONL
-              validation, agreement checks, failure tags, and Markdown/JSON reports.
+              validation, multi-annotator agreement, disagreement cases, failure tags, and
+              Markdown/JSON reports.
             </p>
+            <ul class="project-evidence">
+              <li>Computed-vs-human preference checks</li>
+              <li>Pairwise annotator agreement metrics</li>
+              <li>CI plus unit-tested CLI workflow</li>
+            </ul>
             <a href="https://github.com/yashowardhansinghtomar/llm-evaluation-lab">Open repository</a>
           </article>
 
@@ -102,9 +108,14 @@
             </div>
             <h3>rag-evaluation-workbench</h3>
             <p>
-              Measures retrieval recall, citation precision and recall, required-fact coverage,
-              grounded answer rate, and failure tags over a small document corpus.
+              Measures retrieval recall, citation coverage, required-fact coverage, grounded answer
+              rate, retriever ranking behavior, and failure tags over a small document corpus.
             </p>
+            <ul class="project-evidence">
+              <li>BM25 vs keyword vs hybrid comparison</li>
+              <li>Top-source expected-source checks</li>
+              <li>Generated comparison report</li>
+            </ul>
             <a href="https://github.com/yashowardhansinghtomar/rag-evaluation-workbench">Open repository</a>
           </article>
 
@@ -116,8 +127,13 @@
             <h3>voice-ai-agent-demo</h3>
             <p>
               Local voice-agent framework with STT, assistant, and TTS provider boundaries,
-              streaming-style artifacts, latency traces, batch scenarios, and reports.
+              streaming-style artifacts, p50/p95 latency traces, batch scenarios, and reports.
             </p>
+            <ul class="project-evidence">
+              <li>Silence timeout and clarification paths</li>
+              <li>Barge-in emergency escalation scenario</li>
+              <li>Batch intent and latency report</li>
+            </ul>
             <a href="https://github.com/yashowardhansinghtomar/voice-ai-agent-demo">Open repository</a>
           </article>
         </div>
@@ -133,21 +149,23 @@
             <h3>AI Evaluation / RLHF</h3>
             <p>
               Prompt design, side-by-side response review, rubric-based scoring, preference data,
-              coding/data-science evaluation, ground-truth corrections, and failure-mode analysis.
+              coding/data-science evaluation, ground-truth corrections, annotator agreement, and
+              failure-mode analysis.
             </p>
           </article>
           <article>
             <h3>RAG / GenAI Applications</h3>
             <p>
-              Document ingestion, chunking, retrieval, citations, groundedness checks, local LLM
-              apps, LangChain, FAISS, Ollama, Streamlit, and Gradio workflows.
+              Document ingestion, chunking, retrieval, retriever comparison, citations,
+              groundedness checks, local LLM apps, LangChain, FAISS, Ollama, Streamlit, and Gradio
+              workflows.
             </p>
           </article>
           <article>
             <h3>Voice AI / Conversational AI</h3>
             <p>
               STT/TTS integration, provider boundaries, latency tracing, intent routing, batch
-              scenario testing, and LLM-backed assistant quality review.
+              scenario testing, interruption handling, and LLM-backed assistant quality review.
             </p>
           </article>
         </div>
